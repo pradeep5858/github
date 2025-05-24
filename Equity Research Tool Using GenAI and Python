@@ -9,7 +9,7 @@ from langchain_community.document_loaders import UnstructuredURLLoader
 from langchain_cohere import CohereEmbeddings
 from langchain_community.vectorstores import FAISS
 
-os.environ["COHERE_API_KEY"] = "TepBTugflHPLthE7f7pAxzfJsi3FjxZWrAZVsFAL"
+os.environ["COHERE_API_KEY"] = "API_KEY"
 
 st.title("RockyBot: News Research Tool 📈")
 st.sidebar.title("News Article URLs")
